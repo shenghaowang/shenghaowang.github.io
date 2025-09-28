@@ -14,4 +14,4 @@ Feel free to drop me an email. I'm always open to interesting conversations and 
 
 ### Contact me
 
-[wangshenghao1993@gmail.com](mailto:wangshenghao1993@gmail.com)
+[shenghao.wsh@gmail.com](mailto:shenghao.wsh@gmail.com)
