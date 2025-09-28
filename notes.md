@@ -6,6 +6,11 @@ permalink: /notes/
 
 This page contains my technical notes and documentation.
 
+## Probability
+
+* [Conditional Probability](/notes/probability/conditional-probability)
+* [Question Bank](/notes/probability/question-bank)
+
 ## Statistics
 
 * [A/B Testing](/notes/statistics/ab-testing)
@@ -20,9 +25,3 @@ This page contains my technical notes and documentation.
 * [screen](/notes/command-library/screen)
 * [psql](/notes/command-library/psql)
 * [MongoDB](/notes/command-library/mongodb)
-
-## Learning
-<!-- Your learning notes here -->
-
-## Projects
-<!-- Your project notes here -->
