@@ -517,16 +517,13 @@ $ lsof -i: <port-number>
 ```bash
 $ kill -9 <process-id>
 $ pkill -f <process-keyword>    # The entire command will be used to match the keyword pattern.
-
 $ for pid in $(ps aux | grep sim | grep Jul | awk '{print $2}'); do kill $pid; done;
 ```
 
 - Search for running session of a process
 ```bash
 $ ps aux | grep <search-term 1>.*<search-term 2>
-
-# example
-$ ps aux | grep xx_worker.py
+$ ps aux | grep xx_worker.py	# example
 ```
 
 

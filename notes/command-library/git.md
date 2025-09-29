@@ -155,20 +155,18 @@ git push -u origin master
 
 - Copy public key of one machine to another machine
 ```bash
-$ ssh-copy-id -i ~/.ssh/dat_prod1.pub dtl-data01
+ssh-copy-id -i ~/.ssh/dat_prod1.pub dtl-data01
 ```
 
 - Check the email address linked with repos
 ```bash
 git config --global user.email	# for all repos on the computer
-
 git config user.email	# for a single repo
 ```
 
 - Set email address linked with repos
 ```bash
 git config --global user.email <email-address>	# for all repos on the computer
-
 git config user.email <email-address>	# for a single repo
 ```
 
@@ -209,11 +207,8 @@ git checkout -b new_branch old_branch
 - Rename a git branch
 ```bash
 git branch -m <newname>	# To rename the current branch
-
 git branch -m <oldname> <newname>	# To rename a branch while pointed to any branch
-
 git push origin -u <newname>	# To push the local branch and reset the upstream branch
-
 git push origin --delete <oldname>	# To delete the remote branch
 ```
 
