@@ -57,14 +57,12 @@ git checkout -b my-branch
 ```bash
 git checkout feature-branch
 git merge master
-
 git merge -s ours master	# To always keep the changes from the feature-branch
 ```
 
 - Remove dtl.py from the added files.
 ```bash
 git reset HEAD dtl.py	# remove last commit, keep the changes
-
 git reset --hard HEAD^	# remove last commit, discard changes
 ```
 
